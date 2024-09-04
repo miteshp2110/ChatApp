@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ChatApp</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="/socket.io/socket.io.js"></script>
+    
+    
+</head>
+<body>
+    
+    <div class="chatBox">
+        <h2 id="roomNumber">No connection</h2>
+
+
+
+
+        <div class="chatArea" id="chatContainer">
+
+            <!-- dynamic element here -->
+
+            <!-- <div class="broadcast">username has joined the chat</div> -->
+
+            <!-- <div class="message sent">
+                <div class="messageSender sender">You</div>    
+                <div >Hello</div>
+            </div> -->
+
+            <!-- <div class="message">
+                <div class="messageSender">Name</div>
+                this is a sample message Lorem, ipsum dolor sit Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt ratione repellendus veniam? Dolorum soluta odit repellendus. Magni facilis i. Molestiae aliquam excepturi facere esse! Maus, delectus fuga veniam dolore sapiente maxime saepe nostrum autem adipisci distinctio animi modi qui est provident dolorum pariatur ipsa voluptates aliquam consequatur, in tenetur atque.
+            </div> -->
+
+
+            <!-- <div class="message sent">
+                <div class="messageSender sender">You</div>    
+                I am in a meeting
+            </div> -->
+
+            <!-- this is char area -->
+            
+        </div>
+        
+
+        <div class="typeBox">
+            <input type="text" id="sendText" placeholder="Enter Text">
+            <button  class="button" id="sendButton">Send</button>
+            
+        </div>
+        
+    </div>
+
+    <script src="script.js"></script>
+    
+</body>
+</html>

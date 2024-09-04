@@ -1,0 +1,144 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: black;
+}
+
+.chatBox{
+    background-color: white;
+    height: 90vh;
+    padding-top: 3vh;
+    margin-top: 7vh;
+   
+    border-radius: 10px 10px 0px 0px ;
+    text-align: center;
+
+}
+.leftBox{
+    background-color: cornflowerblue;
+    height: 60vh;
+    width: 15vw;
+    margin-top: 20vh;
+    border-radius: 10px;
+    margin-left: 42.5vw;
+    position: absolute;
+    padding: 2px;
+    text-align: center;
+}
+.inputField{
+    margin-top: 10vh;
+    padding: 5px;
+}
+.button{
+    border-radius: 5px;
+    border: none;
+    width: 6vw;
+    height: 4vh;
+    transition: all ease-in-out 0.3s;
+    
+}
+.button:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+    transition: all ease-in-out 0.3s;
+}
+#connectButton{
+    margin-top: 10vh;
+}
+#disconnectButton{
+    margin-top: 10vh;
+    display: none;
+}
+
+.chatArea{
+    background-color: darkslategray;
+    height: 70vh;
+    width: 98vw;
+    margin-left: 0.6vw;
+    bottom: 0;
+    border-radius: 10px 10px 0 0;
+    padding: 4px;
+    padding-top: 12px;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    overflow: auto;
+    padding-bottom: 11vh;
+    
+    
+}
+.message{
+    background-color: white;
+    max-width: 40vw;
+    padding: 3px;
+    border-radius: 3px;
+    width: fit-content;
+    text-align: start;
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+    
+}
+.sent{
+    align-self: flex-end;
+    
+}
+
+.chatArea::-webkit-scrollbar {
+    display: none; /* Safari and Chrome */
+}
+
+.messageSender{
+    color: green;
+
+}
+.sender{
+    color: orange;
+}
+
+.typeBox{
+    backdrop-filter: blur(5px);
+    background-color: rgba(255, 255, 255, 0.212);
+    height: 7vh;
+    border-radius: 8px;
+    position: relative;
+    margin-top: 75vh;
+    width: 97vw;
+    margin-left: 1.4vw;   
+    display: flex;   
+}
+#sendText{
+    
+    background: none;
+    border: none;
+    color: black;
+    font-size: larger;
+    margin-left: 1vw;
+    width: 89.5vw;
+    outline: none;
+
+
+}
+::placeholder{
+    color: black;
+}
+
+#sendButton{
+    align-self: center;
+    height: 5vh;
+    background-color: dodgerblue;
+    color: white;
+    
+}
+.broadcast{
+    background-color: white;
+    width: fit-content;
+    align-self: center;
+    padding: 2px;
+    border-radius: 5px;
+    margin-bottom: 10vh;
+    margin-top: 2vh;
+}
+
